@@ -65,6 +65,8 @@
     <Compile Include="Converters\DatePickerOriginalValueConverter.cs" />
     <Compile Include="DataProvider\Lookups\LookupItem.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\NavigationItem.cs" />
+    <Compile Include="ViewModels\NavigationViewModel.cs" />
     <Compile Include="Views\Controls\ChangeTrackingCollectionInfo.xaml.cs" />
     <Compile Include="Views\FriendEditView.xaml.cs" />
     <Compile Include="Views\MainWindow.xaml.cs" />

@@ -21,6 +21,7 @@ namespace wpf_app
         private void App_OnStartup(object sender, StartupEventArgs e)
         {
             _mainViewModel = new MainViewModel();
+            _mainViewModel.Initialize();
             MainWindow = new MainWindow(_mainViewModel);
             MainWindow.Show();
         }
